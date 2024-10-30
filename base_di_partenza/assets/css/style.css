@@ -29,6 +29,7 @@ header {
   padding: 2em 1.5em;
   position:sticky;
   top:0;
+  z-index:102;
 }
 
 @media screen and (min-width: 800px) {
@@ -102,20 +103,11 @@ main {
 
 .titolo{
   position: relative;
-  display: inline-block;
+}
+.linea{
+  right:0;
 }
 
-
-.titolo::after{
-  
-  position:absolute;
-  bottom: -5px;
-  left:70%;
-  background-image: url(/base_di_partenza/assets/img/underline.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-
-}
 section {
   background-color: #e3e3e3;
   padding: 1.5em 1em;
